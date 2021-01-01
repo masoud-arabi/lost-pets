@@ -6,3 +6,5 @@
 
 </ul>
 <%= link_to  "back home", pets_path %>
+<%= link_to  "edit", edit_pet_path %>
+<%= link_to  "delete", pet_path(@pet), method: 'delete', data:{confirm: 'Are you sure'} %>
